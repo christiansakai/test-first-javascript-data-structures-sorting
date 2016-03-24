@@ -126,12 +126,12 @@ describe('A linked list', function() {
       return this.name;
     };
 
-    linkedList.addToHead(new UserNode('Nimit', 'nimit@fs.com', 'New York'));
-    linkedList.addToHead(new UserNode('David', 'david@fs.com', 'New York'));
-    linkedList.addToHead(new UserNode('Paul', 'paul@yc.com', 'Mountain View'));
+    linkedList.addToHead(new UserNode('Bob', 'bob@bob.com', 'New York'));
+    linkedList.addToHead(new UserNode('John', 'john@john.com', 'New York'));
+    linkedList.addToHead(new UserNode('Paul', 'paul@paul.com', 'Mountain View'));
 
-    expect(linkedList.search('Nimit').email).toBe('nimit@fs.com');
-    expect(linkedList.search('David').city).toBe('New York');
+    expect(linkedList.search('Bob').email).toBe('bob@bob.com');
+    expect(linkedList.search('John').city).toBe('New York');
     expect(linkedList.search('Paul').name).toBe('Paul');
   });
 

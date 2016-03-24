@@ -17,8 +17,8 @@ To see performance comparison, run performanceTest() in your browser console
 * NPM
 
 ## Instructions
-* npm install -g testem. Might need to do sudo npm install -g testem
-* cd into one of the directory, for example cd 01_queue
-* touch queue.js
-* testem queueSpec.js and see the tests fail
+* `npm install -g testem`. Might need to do `sudo npm install -g testem`
+* `cd` into one of the directory, for example `cd 01_queue`
+* `touch queue.js`
+* `testem queueSpec.js` and see the tests fail
 * code until all tests pass
